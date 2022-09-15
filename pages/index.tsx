@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -9,9 +10,9 @@ export default function Home() {
       <Head>
         <title>Blog</title>
       </Head>
-      <Header></Header>
+      {/* <Header></Header> */}
       <Body title="My Blog Application"></Body>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
